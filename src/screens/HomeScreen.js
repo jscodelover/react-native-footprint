@@ -21,6 +21,16 @@ const HomeScreen = props => {
 				onPress={() => navigate('ImageScreen')}
 				title="On Image Screen"
 			/>
+			<Button
+				style={styles.btn}
+				onPress={() => navigate('Counter')}
+				title="On Counter Screen"
+			/>
+			<Button
+				style={styles.btn}
+				onPress={() => navigate('ColorCreator')}
+				title="On Counter Screen"
+			/>
 		</View>
 	);
 };
