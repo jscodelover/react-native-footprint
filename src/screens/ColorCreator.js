@@ -8,9 +8,9 @@ const ColorCreator = () => {
 
 	function handleColor(color, fn, add) {
 		if (add) {
-			color <= 255 && fn(color + 10);
+			color < 255 && fn(color + 5);
 		} else {
-			color >= 0 && fn(color - 10);
+			color > 0 && fn(color - 5);
 		}
 	}
 	return (
@@ -46,7 +46,7 @@ const ColorCreator = () => {
 				style={{
 					width: 200,
 					height: 200,
-					backgroundColor: `rgb(${red}, ${blue}, ${green})`
+					backgroundColor: `rgb(${red}, ${green}, ${blue})`
 				}}
 			/>
 		</View>

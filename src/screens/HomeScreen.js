@@ -29,7 +29,7 @@ const HomeScreen = props => {
 			<Button
 				style={styles.btn}
 				onPress={() => navigate('ColorCreator')}
-				title="On Counter Screen"
+				title="On Color Screen"
 			/>
 		</View>
 	);
