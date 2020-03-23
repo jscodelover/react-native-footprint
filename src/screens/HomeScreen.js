@@ -31,6 +31,11 @@ const HomeScreen = props => {
 				onPress={() => navigate('ColorCreator')}
 				title="On Color Screen"
 			/>
+			<Button
+				style={styles.btn}
+				onPress={() => navigate('Name')}
+				title="On Name Screen"
+			/>
 		</View>
 	);
 };
