@@ -36,6 +36,11 @@ const HomeScreen = props => {
 				onPress={() => navigate('Name')}
 				title="On Name Screen"
 			/>
+			<Button
+				style={styles.btn}
+				onPress={() => navigate('BoxScreen')}
+				title="On Box Screen"
+			/>
 		</View>
 	);
 };
